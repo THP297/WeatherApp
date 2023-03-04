@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather_style.css" />
+    <link rel="stylesheet" href="grid.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Weather App</h1>
+      </div>
+      <div class="form">
+        <input id="city-input" type="text" placeholder="Enter city name" />
+        <button id="submit-form">Get Weather</button>
+      </div>
+      <div class="weather">
+        <div class="weatherState">
+          <h2 id="city"></h2>
+          <div id="weather-state">
+          </div>
+          <img id="weatherImg" src="#">
+        </div>
+        <div class="temperature">
+            <div id="Temp">Nhiệt độ hiện tại</div>
+            <div id="Temp-min">Nhiệt độ thấp nhất</div>
+            <div id="Temp-max">Nhiệt độ cao nhất</div>
+            <div id="temp"></div>
+            <div id="temp-min"></div>
+            <div id="temp-max"></div>
+        </div>
+      </div>
+    </div>
+    <script src="weather_script.js"></script>
+  </body>
+</html>
