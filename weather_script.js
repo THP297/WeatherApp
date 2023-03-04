@@ -1,4 +1,4 @@
-const BASE_URL = "http://api.openweathermap.org/geo/1.0/direct?q=";
+const BASE_URL = "https://api.openweathermap.org/geo/1.0/direct?q=";
 const API_KEY = "24a8ab1b971bfeb47ba40b91f97d93f7";
 const weather_state = ["cloud.png", "sun.png", "haze.png"];
 const weatherImg = document.getElementById("weatherImg");
