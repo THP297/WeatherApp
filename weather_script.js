@@ -26,8 +26,8 @@ async function getWeatherData(cityName) {
 }
 
 function displayWeather(weather) {
-  // const audio = new Audio("pop-click.wav");
-  // audio.play();
+  const audio = new Audio("pop-click.wav");
+  audio.play();
   const cityElement = document.getElementById("city");
   const weatherStateElement = document.getElementById("weather-state");
   const tempElement = document.getElementById("temp");
