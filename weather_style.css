@@ -14,11 +14,10 @@ body {
 h1 {
     font-size: 36px;
     font-weight: bold;
-    color: #67395b;
+    color: #a72a86;
     text-align: center;
     margin-bottom: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #51299f;
+    font-family: fantasy;
 }
 
 h2 {
@@ -26,6 +25,7 @@ h2 {
     font-weight: bold;
     color: #67395b;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 p {
@@ -34,59 +34,36 @@ p {
     margin-bottom: 10px;
 }
 
-.weather{
+.weather {
     text-align: center;
 }
 
-#Temp  {
-    font-size: 30px;
+.tempWrap,
+.maxTempWrap,
+.minTempWrap,
+.humidityWrap,
+.sunriseWrap,
+.sunsetWrap {
+    font-size: 20px;
     font-weight: bold;
-    color: green;
-    margin-bottom: 10px;
-    background-color: rgb(177, 216, 243);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    
-}
-
-#Temp-min  {
-    font-size: 30px;
     color: #0099ff;
     margin-bottom: 10px;
     background-color: rgb(177, 216, 243);
     border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-
-
+    border-radius: 10px;
 }
 
-#Temp-max  {
-    font-size: 30px;
-    color: #cc3300;
-    margin-bottom: 10px;
-    background-color: rgb(177, 216, 243);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
 
+#weatherStateWrap>:nth-child(2) {
+    color: green;
 }
 
-#weather-state, #temp, #temp-min, #temp-max {
+#weather-state {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-}
-#temp{
-    color: green;
-}
-#temp-min{
-    color: blue;
-}
-#temp-max{
-    color:red;
-}
+    color: #28efca;
 
-#weather-state{
-    color:#28efca;
 }
 
 #city {

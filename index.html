@@ -6,31 +6,52 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="weather_style.css" />
     <link rel="stylesheet" href="grid.css" />
-
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h1>Weather App</h1>
+        <h2 id="LocalTime"></h2>
       </div>
       <div class="form">
-        <input id="city-input" type="text" placeholder="Enter city name" />
+        <input
+          id="city-input"
+          type="text"
+          placeholder="Ex: washington, new york"
+        />
         <button id="submit-form">Get Weather</button>
       </div>
       <div class="weather">
         <div class="weatherState">
           <h2 id="city"></h2>
-          <div id="weather-state">
-          </div>
-          <img id="weatherImg" src="#">
+          <div id="weather-state"></div>
+          <img id="weatherImg" src="#" />
         </div>
         <div class="temperature">
-            <div id="Temp">Nhiệt độ hiện tại</div>
-            <div id="Temp-min">Nhiệt độ thấp nhất</div>
-            <div id="Temp-max">Nhiệt độ cao nhất</div>
+          <div id="weatherStateWrap" class="tempWrap">
+            <div id="Temp">Current Temp</div>
             <div id="temp"></div>
+          </div>
+          <div id="weatherStateWrap" class="minTempWrap">
+            <div id="Temp-min">Min</div>
             <div id="temp-min"></div>
+          </div>
+          <div id="weatherStateWrap" class="maxTempWrap">
+            <div id="Temp-max">Max</div>
             <div id="temp-max"></div>
+          </div>
+          <div id="weatherStateWrap" class="humidityWrap">
+            <div id="humidity-text">Humidity</div>
+            <div id="humidity-value"></div>
+          </div>
+          <div id="weatherStateWrap" class="sunriseWrap">
+            <div id="sunrise-text">Sunrise</div>
+            <div id="sunrise-value"></div>
+          </div>
+          <div id="weatherStateWrap" class="sunsetWrap">
+            <div id="sunset-text">sunset</div>
+            <div id="sunset-value"></div>
+          </div>
         </div>
       </div>
     </div>
